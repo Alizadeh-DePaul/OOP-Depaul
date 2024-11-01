@@ -14,11 +14,13 @@ package DesignPatterns.Decorator.CarExample;
 public class CarManufacturingDriver {
 
     public static void main(String[] args) {
-        Car sportsCar = new SportsCar(new BasicCar());
+        Car basicCar = new BasicCar();
+
+        Car sportsCar = new SportsCar(basicCar);
         sportsCar.assemble();
         System.out.println("\n*****");
 
-        Car sportsLuxuryCar = new LuxuryCar(new SportsCar(new BasicCar()));
+        Car sportsLuxuryCar = new LuxuryCar(new SportsCar(basicCar));
         sportsLuxuryCar.assemble();
 
         System.out.println("\n*****");
