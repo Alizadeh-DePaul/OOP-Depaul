@@ -17,7 +17,7 @@ public class ClassEx3 {
 
     ClassEx3() {
 //        this.i = 5; // instance variable
-//
+
         this(5);
         //In Java, we could use this (5); instead of this.i=5; but other
         //languages may not support this kind of construct

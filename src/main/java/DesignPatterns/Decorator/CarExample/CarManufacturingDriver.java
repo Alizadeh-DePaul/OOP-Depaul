@@ -23,6 +23,11 @@ public class CarManufacturingDriver {
         Car sportsLuxuryCar = new LuxuryCar(new SportsCar(basicCar));
         sportsLuxuryCar.assemble();
 
+        System.out.println("\n ORDER *****");
+
+        Car luxurySportsCar = new SportsCar(new LuxuryCar(basicCar));
+        luxurySportsCar.assemble();
+
         System.out.println("\n*****");
 
         Car basic = new BasicCar();

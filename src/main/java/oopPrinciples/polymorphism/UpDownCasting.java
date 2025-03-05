@@ -41,7 +41,7 @@ class DemoUpDownCasting {
 //      ####Upcasting
         Vehicle obVehicle=new Train();//ok
         obVehicle.showMe();//Output: Inside Train.showMe()
-//        obVehicle.specificMethod();//error //Since the apparent type in the code is a Vehicle,
+    //    obVehicle.specificMethod();//error //Since the apparent type in the code is a Vehicle,
 //      but not a Train. Need downcasting Line43 and 44
 
 //      Creating two subtype(one Bus and one Train) object

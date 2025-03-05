@@ -21,7 +21,7 @@ public class MotorHomeDriver {
 
         // Step 2
         // Create a factory instance
-        String nextMotorHome = "TypeA"; // simulated user input
+        String nextMotorHome = "TypeB"; // simulated user input
 
         if (nextMotorHome.equals("TypeA")) {
             System.out.println("\nType A motor home selected");

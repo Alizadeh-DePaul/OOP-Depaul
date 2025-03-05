@@ -41,7 +41,11 @@ class DemoCopyConstructor {
     public static void main(String[] args) {
         System.out.println("***User-defined copy constructor***\n");
         Student student1 = new Student(123456, "Vahid");
+
+        Student student_fake = student1;
         System.out.println(" The Student1 details:");
+        student1.displayDetails();
+        System.out.println(" The Student2 details:");
         student1.displayDetails();
 
         System.out.println("\n Copying student1 to student2 >>>");

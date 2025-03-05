@@ -15,7 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
         
-        String emailText = "hi send bitcoins to 1234";
+        String emailText = "hi send bitcoins to 1234" ;
 
         UniversityEmailHandler academic = new AcademicEmailHandler();
         UniversityEmailHandler alumni = new AlumniEmailHandler();

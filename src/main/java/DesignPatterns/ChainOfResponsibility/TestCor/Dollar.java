@@ -9,13 +9,13 @@
  *
  */
 
-package DesignPatterns.ChainOfResponsibility.classCoding;
+package DesignPatterns.ChainOfResponsibility.TestCor;
 
-public class Currency {
+public class Dollar {
 
-    public int amount;
+    private int amount;
 
-    public Currency(int amount) {
+    public Dollar(int amount){
         this.amount = amount;
     }
 
