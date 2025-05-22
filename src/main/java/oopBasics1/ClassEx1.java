@@ -26,9 +26,9 @@ class ClassEx1 {
         System.out.println("obA.myInt = " + obA.myInt);
         System.out.println("obB.myInt = " + obB.myInt);
 
-//        ClassEx1 obC = new ClassEx1();
-//        obA.myInt=450;//setting 25 into myInt of obA
-//        System.out.println("obC.myInt = " + obA.myInt);
+        ClassEx1 obC = new ClassEx1();
+        obA.myInt=450;//setting 450 into myInt of obC
+        System.out.println("obC.myInt = " + obA.myInt);
 
     }
 }

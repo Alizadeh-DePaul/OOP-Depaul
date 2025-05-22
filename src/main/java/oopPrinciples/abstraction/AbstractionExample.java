@@ -14,7 +14,7 @@ package oopPrinciples.abstraction;
 //A simple abstraction example
 public class AbstractionExample {
 }
- abstract class AbstractClass {
+  abstract class AbstractClass {
     protected int myInt = 450;
     public abstract void showMe();
     public void completeMethod1() {
@@ -30,8 +30,9 @@ class CompleteClass extends AbstractClass {
         System.out.println("I'm 'completed/implemented version of showMe() in CompleteClass.");
         System.out.println("The value of myInt is:" + myInt);
     }
-    @Override
+
 //  It wants to override completeMethod1() in MyAbstractClass
+    @Override
     public void completeMethod1() {
         System.out.println("I'm the 'overrided' version of completeMethod1() in CompleteClass.");
     }

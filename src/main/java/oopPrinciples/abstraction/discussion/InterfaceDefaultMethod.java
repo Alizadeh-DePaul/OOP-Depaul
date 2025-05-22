@@ -18,7 +18,7 @@ interface InterfaceWithDefault {
     void traditionalInterfaceMethod();
 
     // A default method in the interface.
-    default void defaultMethod() {
+     default void defaultMethod() {
         System.out.println("Default implementation in the interface.");
     }
 }

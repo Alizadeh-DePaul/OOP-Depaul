@@ -21,6 +21,8 @@ public class GetterSetterExample {
     private int privateInt;
     private String name;
 
+
+
     //Getter
 //    public int getPrivateInt() {
 //        return privateInt; }

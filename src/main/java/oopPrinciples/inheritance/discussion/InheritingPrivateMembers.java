@@ -18,6 +18,7 @@ class A {
     private int a;
 }
 class B extends A {
+
 }
 class Demo {
     public static void main(String[] args) {

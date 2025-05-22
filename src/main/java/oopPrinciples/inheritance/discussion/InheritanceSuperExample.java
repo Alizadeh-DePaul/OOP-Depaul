@@ -36,7 +36,7 @@ class ParentCls {
 class ChildCls extends ParentCls {
     private int c;
     ChildCls(int a, int b, int c) {
-    //    System.out.println("Before setting,c="+ this.c);
+    //    System.out.println("Before sett ing,c="+ this.c);
 //      Error:Constructor call must be the first statement in a constructor
         super(a, b);
         System.out.println("I am in child constructor.");
