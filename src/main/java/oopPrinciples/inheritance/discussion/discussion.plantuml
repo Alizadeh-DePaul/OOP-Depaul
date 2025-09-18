@@ -1,0 +1,254 @@
+@startuml
+
+title __DISCUSSION's Class Diagram__\n
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.A {
+            - a : int
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.B {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.Child1 {
+            + show()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.Child2 {
+            + show()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.ChildClass {
+            ~ ChildClass()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.ChildCls {
+            - c : int
+            ~ ChildCls()
+            ~ childClsMethod()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.ChildClsChain {
+            ~ b : int
+            ~ ChildClsChain()
+            ~ ChildClsChain()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.ConstructorChainingExample {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.Demo {
+            {static} + main()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.DemoConsOrder {
+            {static} + main()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.DemoConstructorChaining {
+            {static} + main()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.DemoInheritanceSuperExample {
+            {static} + main()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.GrandchildClass {
+            ~ GrandchildClass()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.InheritanceConstructorCallOrder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.InheritanceSuperExample {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.InheritingPrivateMembers {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.MultipleInheritanceProblem {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.Parent {
+            + show()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.ParentClass {
+            ~ ParentClass()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.ParentCls {
+            - a : int
+            - b : int
+            ~ ParentCls()
+            ~ parentClsMethod()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace opPrinciples.inheritance {
+      namespace discussion {
+        class oopPrinciples.inheritance.discussion.ParentClsChain {
+            ~ i : int
+            ~ ParentClsChain()
+        }
+      }
+    }
+  }
+  
+
+  oopPrinciples.inheritance.discussion.B -up-|> oopPrinciples.inheritance.discussion.A
+  oopPrinciples.inheritance.discussion.Child1 -up-|> oopPrinciples.inheritance.discussion.Parent
+  oopPrinciples.inheritance.discussion.Child2 -up-|> oopPrinciples.inheritance.discussion.Parent
+  oopPrinciples.inheritance.discussion.ChildClass -up-|> oopPrinciples.inheritance.discussion.ParentClass
+  oopPrinciples.inheritance.discussion.ChildCls -up-|> oopPrinciples.inheritance.discussion.ParentCls
+  oopPrinciples.inheritance.discussion.ChildClsChain -up-|> oopPrinciples.inheritance.discussion.ParentClsChain
+  oopPrinciples.inheritance.discussion.GrandchildClass -up-|> oopPrinciples.inheritance.discussion.ChildClass
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
