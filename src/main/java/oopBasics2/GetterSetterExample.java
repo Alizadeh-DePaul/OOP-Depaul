@@ -23,13 +23,6 @@ public class GetterSetterExample {
 
 
 
-    //Getter
-//    public int getPrivateInt() {
-//        return privateInt; }
-    //Setter
-//    public void setPrivateInt(int privateInt) {
-//        this.privateInt = privateInt;
-//    }
 }
 
 class DemoGetterSetter {

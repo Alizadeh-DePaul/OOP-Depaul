@@ -36,12 +36,16 @@ class DemoNestedClass {
     public static void main(String[] args) {
         System.out.println("***Inner class demonstration.***\n");
         OuterClass outer = new OuterClass();// Ok
-        //Calling the inner class method through an outer class method
+
+        //         InnerClass inner=new InnerClass();//Error
+
+        //Approach 1: Calling the inner class method through an outer class method
         System.out.println("**Approach 1: Calling the inner class method through an outer class object.**");
         outer.invokeInner();
-//         InnerClass inner=new InnerClass();//Error
+
+
+        //Approach 2: Invoking the inner class method through an inner class object.
         OuterClass.InnerClass inner = outer.new InnerClass();// Ok
-        //Invoking the inner class method through an inner class object.
         System.out.println("Approach 2: Invoking the inner class method through an inner class object.");
         inner.showInnerMethod();
     }
