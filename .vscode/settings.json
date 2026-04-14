@@ -1,0 +1,9 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.debug.settings.vmArgs": "--enable-native-access=ALL-UNNAMED",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.saveActions.organizeImports": true,
+  "editor.formatOnSave": true,
+  "files.encoding": "utf8",
+  "files.eol": "\n"
+}

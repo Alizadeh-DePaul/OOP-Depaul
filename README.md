@@ -15,3 +15,11 @@
 
 This repository contains source code examples and assignment and exams solutions.
 
+## Getting Started
+
+See **[SETUP.md](./SETUP.md)** for:
+- Prerequisites (JDK 25 LTS, Maven)
+- Build and run instructions
+- IntelliJ IDEA and VS Code configuration
+- Repository layout and conventions for adding new samples
+
